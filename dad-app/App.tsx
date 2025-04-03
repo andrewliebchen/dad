@@ -4,7 +4,11 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ThemeProvider } from './src/theme/ThemeProvider';
 import { ChatScreen } from './src/screens/ChatScreen';
 
-const Stack = createNativeStackNavigator();
+type RootStackParamList = {
+  Chat: undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function App() {
   return (
