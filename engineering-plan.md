@@ -5,7 +5,7 @@ This document outlines the engineering plan for building the Dad app, a personal
 
 ## Technical Stack
 - **Framework**: Expo with Expo Go for development
-- **Styling**: Theme UI for consistent theming
+- **Styling**: [Theme UI](https://theme-ui.com/getting-started) for consistent theming
 - **State Management**: React Context API or Zustand
 - **Navigation**: React Navigation
 - **API**: OpenAI GPT-4o
